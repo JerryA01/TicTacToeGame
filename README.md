@@ -24,7 +24,7 @@ This is an ongoing personal project aimed at strengthening my grasp of low-level
 
 ## Walkthrough
 
-..
+https://www.youtube.com/watch?v=Nq2k1KxFM3s
 
 ## installation&Usage
 
@@ -34,7 +34,7 @@ This is an ongoing personal project aimed at strengthening my grasp of low-level
 - If running the server and clients on the same local machine or LAN, internet is not required.
 - If running on different networks, you'll need:
    - internet access
-   - The server's rouuter to support port forwading
+   - The server's router to support port forwading
    - Firewall rules to allow traffic on port 12345
    - The client to know the server's public IP address
 
@@ -43,11 +43,11 @@ This is an ongoing personal project aimed at strengthening my grasp of low-level
 - Import into your IDE
   - Open your IDE and import the project as a standard Java application 
 - Start the Server
-  - Open TicTacToeServer.java
+  - Open ServerLauncher.java
   - Run the main method to launch the server GUI
 - Run two clients
   - Open two IDE windows or tabs
-  - Run TicTacToeClient.java twice
+  - Run each client, ClientOneLauncher.java and ClientTwoLauncher.java
   - Each client will connect and be assigned either "X" or "O" 
 - Play Locally
   - All componenets communicate over localhost:12345
